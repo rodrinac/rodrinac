@@ -12,24 +12,14 @@
 <p align="center">
   <a href="https://github.com/rodrinac?tab=repositories">Projects</a>
   ·
-  <a href="https://github.com/rodrinac/cinemaclub">Cinema Club</a>
-  ·
   <a href="https://webfortune.app/">Webfortune</a>
+  ·
+  <a href="https://rodrinac.github.io/enceladus">Enceladus</a>
+  ·
+  <a href="https://github.com/rodrinac/cinemaclub">Cinema Club</a>
 </p>
 
 ## Featured work
-
-### [Cinema Club](https://github.com/rodrinac/cinemaclub) 🎬
-
-A cozy movie-discovery app built with React Native and Expo. It runs across mobile and web, with a secure AWS API layer between the client and TMDB.
-
-<p align="center">
-  <a href="https://github.com/rodrinac/cinemaclub">
-    <img src="assets/cinemaclub.png" width="360" alt="Cinema Club discover screen showing a responsive grid of movie posters" />
-  </a>
-</p>
-
-`React Native` · `Expo` · `TypeScript` · `AWS Lambda` · `API Gateway` · `Terraform`
 
 ### [Webfortune](https://github.com/rodrinac/webfortune) 🐮
 
@@ -42,6 +32,30 @@ A multilingual fortune API and playful cowsay-inspired web experience. Rust powe
 </p>
 
 `Rust` · `JavaScript` · `Vite` · `Playwright` · `AWS Lambda` · `Terraform`
+
+### [Enceladus](https://github.com/rodrinac/enceladus) 🪐
+
+Burn-data reporting for researchers at the Brazilian Burn Society (SBQ). A Next.js interface requests reports from a Go API, with statistical processing in R turning raw DataSUS data into downloadable PDFs. The static export is live on GitHub Pages.
+
+<p align="center">
+  <a href="https://rodrinac.github.io/enceladus">
+    <img src="assets/enceladus.png" width="100%" alt="Enceladus report request interface with processed burn-data reports ready for PDF download" />
+  </a>
+</p>
+
+`Next.js` · `TypeScript` · `Tailwind CSS` · `Go` · `R` · `AWS`
+
+### [Cinema Club](https://github.com/rodrinac/cinemaclub) 🎬
+
+A cozy movie-discovery app built with React Native and Expo. It runs across mobile and web, with a secure AWS API layer between the client and TMDB.
+
+<p align="center">
+  <a href="https://github.com/rodrinac/cinemaclub">
+    <img src="assets/cinemaclub.png" width="360" alt="Cinema Club discover screen showing a responsive grid of movie posters" />
+  </a>
+</p>
+
+`React Native` · `Expo` · `TypeScript` · `AWS Lambda` · `API Gateway` · `Terraform`
 
 ## What I work with
 
