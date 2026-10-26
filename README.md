@@ -47,7 +47,7 @@ Burn-data reporting for researchers at the Brazilian Burn Society (SBQ). A Next.
 
 ### [Cinema Club](https://github.com/rodrinac/cinemaclub) 🎬
 
-A cozy movie-discovery app built with React Native and Expo for iOS, Android, and the web. Its recent "Ledger" redesign brings a new brand, responsive navigation, Now / Top Rated / Upcoming tabs, and a Saved list. Every movie gets a spoiler-free "why watch" pitch, written by Claude on Amazon Bedrock from TMDB facts, all behind a hardened AWS proxy that keeps the TMDB credentials off the client.
+A cozy movie-discovery app built with React Native and Expo for iOS, Android, and the web. Its recent "Ledger" redesign brings a new brand, responsive navigation, Now / Top Rated / Upcoming tabs, and a Saved list. Every movie gets a spoiler-free "why watch" pitch, written by Claude on Amazon Bedrock from TMDB facts, and shared links unfurl into localized movie previews in WhatsApp, Slack, and friends. It all sits behind a hardened AWS proxy that keeps the TMDB credentials off the client.
 
 <p align="center">
   <a href="https://cinemaclub.expo.app/">
