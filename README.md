@@ -51,7 +51,7 @@ A cozy movie-discovery app built with React Native and Expo for iOS, Android, an
 
 <p align="center">
   <a href="https://cinemaclub.expo.app/">
-    <img src="assets/cinemaclub.png" width="360" alt="Cinema Club discover screen with Now, Top Rated, and Upcoming tabs over a grid of movie posters" />
+    <img src="assets/cinemaclub.png" width="720" alt="Cinema Club discover screen on a wide display, with Now, Top Rated, and Upcoming tabs over a four-column grid of movie posters" />
   </a>
 </p>
 
