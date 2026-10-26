@@ -16,22 +16,22 @@
   ·
   <a href="https://rodrinac.github.io/enceladus">Enceladus</a>
   ·
-  <a href="https://github.com/rodrinac/cinemaclub">Cinema Club</a>
+  <a href="https://cinemaclub.expo.app/">Cinema Club</a>
 </p>
 
 ## Featured work
 
 ### [Webfortune](https://github.com/rodrinac/webfortune) 🐮
 
-A multilingual fortune API and playful cowsay-inspired web experience. Rust powers the backend, while the responsive Catppuccin interface is deployed through AWS and GitHub Pages.
+A multilingual fortune API and playful cowsay-inspired web experience. The Rust API now compiles to WebAssembly and runs on Cloudflare's edge at `api.webfortune.app` with per-client rate limiting, while the original AWS Lambda deployment keeps running alongside it. The responsive Catppuccin interface on GitHub Pages lets you pick a language, a topic, and even the cow, then copy the fortune as text or as a screenshot.
 
 <p align="center">
   <a href="https://webfortune.app/">
-    <img src="assets/webfortune.png" width="100%" alt="Webfortune desktop interface with a fortune displayed in a cowsay-style terminal" />
+    <img src="assets/webfortune.png" width="100%" alt="Webfortune desktop interface with a fortune in a cowsay-style terminal, cow picker, and language and topic controls" />
   </a>
 </p>
 
-`Rust` · `JavaScript` · `Vite` · `Playwright` · `AWS Lambda` · `Terraform`
+`Rust` · `WebAssembly` · `Cloudflare Workers` · `JavaScript` · `Vite` · `Playwright` · `AWS Lambda` · `Terraform`
 
 ### [Enceladus](https://github.com/rodrinac/enceladus) 🪐
 
@@ -47,15 +47,15 @@ Burn-data reporting for researchers at the Brazilian Burn Society (SBQ). A Next.
 
 ### [Cinema Club](https://github.com/rodrinac/cinemaclub) 🎬
 
-A cozy movie-discovery app built with React Native and Expo. It runs across mobile and web, with a secure AWS API layer between the client and TMDB.
+A cozy movie-discovery app built with React Native and Expo for iOS, Android, and the web. Its recent "Ledger" redesign brings a new brand, responsive navigation, Now / Top Rated / Upcoming tabs, and a Saved list. Every movie gets a spoiler-free "why watch" pitch, written by Claude on Amazon Bedrock from TMDB facts, all behind a hardened AWS proxy that keeps the TMDB credentials off the client.
 
 <p align="center">
-  <a href="https://github.com/rodrinac/cinemaclub">
-    <img src="assets/cinemaclub.png" width="360" alt="Cinema Club discover screen showing a responsive grid of movie posters" />
+  <a href="https://cinemaclub.expo.app/">
+    <img src="assets/cinemaclub.png" width="360" alt="Cinema Club discover screen with Now, Top Rated, and Upcoming tabs over a grid of movie posters" />
   </a>
 </p>
 
-`React Native` · `Expo` · `TypeScript` · `AWS Lambda` · `API Gateway` · `Terraform`
+`React Native` · `Expo` · `TypeScript` · `Amazon Bedrock` · `AWS Lambda` · `API Gateway` · `Terraform`
 
 ## What I work with
 
@@ -64,6 +64,7 @@ A cozy movie-discovery app built with React Native and Expo. It runs across mobi
   <img src="https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React Native" />
   <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
   <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS" />
+  <img src="https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflareworkers&logoColor=white" alt="Cloudflare Workers" />
   <img src="https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white" alt="Terraform" />
   <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright" />
 </p>
